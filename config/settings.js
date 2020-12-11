@@ -4,13 +4,13 @@ const config = () => {
     switch (env) {
         case "dev": 
         return {
-            dbpath:"mongodb+srv://weldorn:Alunos@123@cluster0.2rosu.mongodb.net/banco?retryWrites=true&w=majority",
+            dbpath:"",
             jwt_key:"Navegacao",
             jwt_expires:"2d"
         }
         case "prod":
             return {
-                dbpath:"mongodb+srv://weldorn:Alunos@123@cluster0.2rosu.mongodb.net/banco?retryWrites=true&w=majority"
+                dbpath:""
             }
     }
 }
